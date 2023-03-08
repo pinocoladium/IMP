@@ -5,7 +5,7 @@ from vk_api import vk_api
 
 from application.salary import calculate_salary
 from application.db.people import get_employees
-from dirty.dirty_main import dirty_main
+from dirty.dirty_main import *
 
 if __name__ == '__main__':
     print(datetime.now())
